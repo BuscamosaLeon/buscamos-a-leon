@@ -76,7 +76,11 @@ video {
 .texto-alerta {
   color: #e6ff9a;
 }
-
+.boton-wsp,
+.boton-ig,
+.boton-fb {
+  font-size: 0.90rem;
+}
 .boton-wsp {
   display: inline-block;
   background-color: #5fd6a5;
