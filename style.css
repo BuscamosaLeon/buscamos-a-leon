@@ -15,11 +15,13 @@ body {
   font-size: 42px;
   font-weight: 700;
   line-height: 1.1;
+  color: #e6ff9a;
 }
 
 /* 🔧 AJUSTE DE ESPACIOS */
 .encabezado h2 {
   margin: 8px 0px 8px 0px;
+  color: #e6ff9a;
 }
 
 section p {
@@ -45,7 +47,7 @@ section {
 
 audio {
   display: block;
-  margin: 20px auto;
+  margin: 13px auto;
 }
 
 .galeria {
@@ -55,7 +57,7 @@ audio {
 }
 
 .item {
-  min-width: 72%;
+  min-width: 90%;
   aspect-ratio: 4 / 5;
 }
 
@@ -79,7 +81,7 @@ video {
   display: inline-block;
   background-color: #5fd6a5;
   color: #062018;
-  padding: 8px 13px;
+  padding: 3px 8px;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
@@ -89,7 +91,7 @@ video {
   display: inline-block;
   background-color: #d6a3ff;
   color: #1a0a2a;
-  padding: 8px 13px;
+  padding: 3px 8px;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
@@ -99,7 +101,7 @@ video {
   display: inline-block;
   background-color: #8fb3ff;
   color: #0a1a33;
-  padding: 8px 13px;
+  padding: 3px 8px;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
@@ -112,6 +114,6 @@ video {
 }
 
 .item2 {
-  min-width: 54%;
+  min-width: 90%;
   aspect-ratio: 9 / 16;
 }
