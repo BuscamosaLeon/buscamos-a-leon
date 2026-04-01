@@ -17,7 +17,15 @@ body {
   line-height: 1.1;
   color: #e6ff9a;
 }
-
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+h3 {
+  text-align: center;
+  margin-top: 13px;
+  margin-bottom: 3px;
+  color: #919191;
+}
 /* 🔧 AJUSTE DE ESPACIOS */
 .encabezado h2 {
   margin: 8px 0px 8px 0px;
@@ -33,12 +41,6 @@ section p {
   font-weight: 600;
   font-size: 1.125rem;
   margin-top: 8px;
-}
-
-h3 {
-  text-align: center;
-  margin: 36px 0px 8px 0px;
-  color: #919191;
 }
 
 section {
