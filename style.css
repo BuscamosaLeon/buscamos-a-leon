@@ -70,6 +70,7 @@ video {
   width: auto;
   height: auto;
   max-height: 90vh;
+  max-width: 90vw;
   object-fit: contain;
 }
 
