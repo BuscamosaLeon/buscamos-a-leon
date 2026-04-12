@@ -62,20 +62,15 @@ audio {
 }
 
 .item {
-  min-width: 90%;
-  aspect-ratio: 4 / 5;
-}
+  min-width: auto;
+  height: auto;}
 
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
+img,
 video {
-  width: 100%;
+  width: auto;
   height: 100%;
-  object-fit: cover;
+  max-height: 90vh;
+  object-fit: contain;
 }
 
 .texto-alerta {
@@ -123,10 +118,7 @@ video {
 }
 
 .item2 {
-  min-width: 90%;
-  aspect-ratio: 9 / 16;
-}
-.item,
-.item2 {
-  max-height: 90vh;
+  min-width: auto;
+  height: auto;
+
 }
