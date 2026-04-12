@@ -62,13 +62,13 @@ audio {
 }
 
 .item {
-  min-width: auto;
-  height: auto;}
+  flex: 0 0 auto;
+}
 
 img,
 video {
   width: auto;
-  height: 100%;
+  height: auto;
   max-height: 90vh;
   object-fit: contain;
 }
@@ -120,5 +120,4 @@ video {
 .item2 {
   min-width: auto;
   height: auto;
-
 }
