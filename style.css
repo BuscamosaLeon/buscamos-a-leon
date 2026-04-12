@@ -126,3 +126,7 @@ video {
   min-width: 90%;
   aspect-ratio: 9 / 16;
 }
+.item,
+.item2 {
+  max-height: 90vh;
+}
